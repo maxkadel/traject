@@ -12,14 +12,13 @@ namespace :load_maps do
   task :marc_geographic do |task|
     require_nokogiri(task)
 
-    source_url = "http://www.loc.gov/marc/geoareas/gacs_code.html"
+    source_url = "https://www.loc.gov/marc/geoareas/gacs_code.html"
 
     filename = ENV["OUTPUT_TO"] || File.expand_path("../../translation_maps/marc_geographic.yaml", __FILE__)
     file = File.open( filename, "w:utf-8" )
 
     $stderr.puts "Writing to `#{filename}` ..."
-
-    html = Nokogiri::HTML(open(source_url).read)
+    html = Nokogiri::HTML(Net::HTTP.get(URI.parse(source_url)))
 
     file.puts "# Translation map for marc geographic codes constructed by `rake load_maps:marc_geographic` task"    
     file.puts "# Scraped from #{source_url} at #{Time.now}"
@@ -51,6 +50,7 @@ namespace :load_maps do
     file.puts("# Map Language Codes (in 008[35-37], 041) to User Friendly Term\r")
 
     marc_language_source_url = 'https://www.loc.gov/standards/codelists/languages.xml'
+    file.puts "# Scraped from #{marc_language_source_url} at #{Time.now}"
     doc = Nokogiri::XML(URI.parse(marc_language_source_url).open)
     marc_language_hash = doc.xpath('//codelist:language', codelist: CODELIST_NS)
                             .to_h do |node|
