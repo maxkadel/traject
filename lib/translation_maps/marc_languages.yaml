@@ -1,4 +1,5 @@
 # Map Language Codes (in 008[35-37], 041) to User Friendly Term
+# Scraped from https://www.loc.gov/standards/codelists/languages.xml at 2025-03-26 10:40:03 -0400
 
 # MARC language codes (including obsolete codes), from https://www.loc.gov/standards/codelists/languages.xml
 aar: Afar
@@ -111,7 +112,7 @@ dar: Dargwa
 day: Dayak
 del: Delaware
 den: Slavey
-dgr: Dogrib
+dgr: Tlicho
 din: Dinka
 div: Divehi
 doi: Dogri
@@ -1380,7 +1381,7 @@ bqh: Baima
 bqi: Bakhtiari
 bqj: Bandial
 bqk: Banda-Mbrès
-bql: Bilakura
+bql: Karian
 bqm: Wumboko
 bqn: Bulgarian Sign Language
 bqo: Balo
@@ -1749,6 +1750,7 @@ clk: Idu-Mishmi
 cll: Chala
 clm: Clallam
 clo: Lowland Oaxaca Chontal
+cls: Classical Sanskrit
 clt: Lautu Chin
 clu: Caluyanun
 clw: Chulym
@@ -1928,7 +1930,7 @@ dau: Dar Sila Daju
 dav: Taita
 daw: Davawenyo
 dax: Dayi
-daz: Dao
+daz: Moi-Wadea
 dba: Bangime
 dbb: Deno
 dbd: Dadiya
@@ -1969,7 +1971,6 @@ def: Dezfuli
 deg: Degema
 deh: Dehwari
 dei: Demisa
-dek: Dek
 dem: Dem
 dep: Pidgin Delaware
 deq: Dendi (Central African Republic)
@@ -2803,6 +2804,7 @@ hng: Hungu
 hnh: ǁAni
 hni: Hani
 hnj: Hmong Njua
+hnm: Hainanese
 hnn: Hanunoo
 hno: Northern Hindko
 hns: Caribbean Hindustani
@@ -3011,6 +3013,7 @@ iso: Isoko
 isr: Israeli Sign Language
 ist: Istriot
 isu: Isu (Menchum Division)
+isv: Interslavic
 itb: Binongan Itneg
 itd: Southern Tidung
 ite: Itene
@@ -4075,6 +4078,7 @@ luc: Aringa
 lud: Ludian
 lue: Luvale
 luf: Laua
+luh: Leizhou Chinese
 luj: Luna
 luk: Lunanakha
 lul: "Olu'bo"
@@ -4396,7 +4400,7 @@ mme: Mae
 mmf: Mundat
 mmg: North Ambrym
 mmh: Mehináku
-mmi: Musar
+mmi: Hember Avu
 mmj: Majhwar
 mmk: Mukha-Dora
 mml: Man Met
@@ -5089,7 +5093,6 @@ nsx: Nsongo
 nsy: Nasal
 nsz: Nisenan
 ntd: Northern Tidung
-nte: Nathembo
 ntg: Ngantangarra
 nti: Natioro
 ntj: Ngaanyatjarra
@@ -5855,6 +5858,7 @@ row: Dela-Oenale
 rpn: Repanbitip
 rpt: Rapting
 rri: Ririo
+rrm: Moriori
 rro: Waima
 rrt: Arritinngithigh
 rsb: Romano-Serbian
@@ -6064,6 +6068,7 @@ siy: Sivandi
 siz: Siwi
 sja: Epena
 sjb: Sajau Basap
+sjc: Shaojiang Chinese
 sjd: Kildin Sami
 sje: Pite Sami
 sjg: Assangori
@@ -7060,6 +7065,7 @@ vrs: Varisi
 vrt: Burmbar
 vsi: Moldova Sign Language
 vsl: Venezuelan Sign Language
+vsn: Vedic Sanskrit
 vsv: Valencian Sign Language
 vto: Vitou
 vum: Vumbu
@@ -7736,6 +7742,7 @@ yms: Mysian
 ymx: Northern Muji
 ymz: Muzi
 yna: Aluo
+ynb: Yamben
 ynd: Yandruwandha
 yne: "Lang'e"
 yng: Yango

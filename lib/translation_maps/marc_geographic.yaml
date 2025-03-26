@@ -1,5 +1,5 @@
 # Translation map for marc geographic codes constructed by `rake load_maps:marc_geographic` task
-# Scraped from http://www.loc.gov/marc/geoareas/gacs_code.html at 2015-01-27 23:00:08 -0500
+# Scraped from https://www.loc.gov/marc/geoareas/gacs_code.html at 2025-03-26 10:36:45 -0400
 # Intentionally includes discontinued codes.
 
 'a': 'Asia'
@@ -140,7 +140,7 @@
 'e-an': 'Andorra'
 'e-au': 'Austria'
 'e-be': 'Belgium'
-'e-bn': 'Bosnia and Hercegovina'
+'e-bn': 'Bosnia and Herzegovina'
 'e-bu': 'Bulgaria'
 'e-bw': 'Belarus'
 'e-ci': 'Croatia'
@@ -150,6 +150,7 @@
 'e-fi': 'Finland'
 'e-fr': 'France'
 'e-ge': 'Germany (East)'
+'e-gg': 'Guernsey'
 'e-gi': 'Gibraltar'
 'e-gr': 'Greece'
 'e-gw': 'Germany (West)'
@@ -157,7 +158,9 @@
 'e-hu': 'Hungary'
 'e-ic': 'Iceland'
 'e-ie': 'Ireland'
+'e-im': 'Isle of Man'
 'e-it': 'Italy'
+'e-je': 'Jersey'
 'e-kv': 'Kosovo'
 'e-lh': 'Liechtenstein'
 'e-li': 'Lithuania'
@@ -215,7 +218,7 @@
 'e-urv': 'Volgo-Viatskii Region, RSFSR'
 'e-urw': 'Siberia, Western (Russia)'
 'e-vc': 'Vatican City'
-'e-xn': 'Macedonia (Republic)'
+'e-xn': 'North Macedonia'
 'e-xo': 'Slovakia'
 'e-xr': 'Czech Republic'
 'e-xv': 'Slovenia'
@@ -280,7 +283,7 @@
 'f-sj': 'Sudan'
 'f-sl': 'Sierra Leone'
 'f-so': 'Somalia'
-'f-sq': 'Swaziland'
+'f-sq': 'Eswatini'
 'f-ss': 'Western Sahara'
 'f-sx': 'Namibia'
 'f-tg': 'Togo'
